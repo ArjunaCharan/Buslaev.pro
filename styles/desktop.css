@@ -1,0 +1,133 @@
+body {
+    background-image: url("../img/sukno.jpg");
+    background-repeat: repeat;
+    padding: 0;
+    margin: 0;
+}
+
+.site {
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 38px;
+}
+
+.top-part {
+    position: relative;
+}
+
+
+.top_img {
+    display: block;
+    width: 1120px;
+}
+
+.title {
+    font-size: 34px;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    width: 1120px;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    opacity: 0.4;
+}
+
+.main-menu {
+    display: flex;
+    background-color: aliceblue;
+    opacity: 0.65;
+    width: 1120px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin: 0; 
+    padding: 16px;
+}
+
+.main-menu__item {
+    display: block;
+    font-size: 26px;
+}
+
+.main-menu__item:first-of-type {
+    margin-left: 44px;
+}
+
+.main-menu__item:last-child {
+    margin-right: 44px;
+}
+
+.link {
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    display: block;
+    background-size: 45px;
+}
+
+.link-youtube {
+    background-image: url(../img/free-icon-youtube-4494485.png);
+    top: 260px;
+    left: 10px;
+}
+
+.link-vk {
+    background-image: url(../img/free-icon-vkontakte-4494517.png);
+    top: 260px;
+    left: 65px;
+}
+
+.link-tg {
+    background-image: url(../img/free-icon-telegram-2111646.png);
+    top: 260px;
+    left: 120px;
+}
+
+.link-tiktok {
+    background-image: url(../img/free-icon-tiktok-3669950.png);
+    top: 260px;
+    left: 175px;
+}
+
+.link-phone {
+    background-image: url(../img/call.png);
+    top: 260px;
+    left: 230px;
+}
+
+.main {
+    background-color: aliceblue;
+    opacity: 0.4;
+    width: 1120px;
+    padding: 16px;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+.footer {
+    display: flex;
+    position: fixed;
+    background-color: rgb(143, 172, 145);
+    opacity: 1;
+    bottom: 0px;
+    width: 1120px;
+    border-top: 2px solid black;
+    align-content: center;
+    justify-content: flex-end;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.phone-link {
+    display: block;
+}
+
+.mail-link {
+    display: block;
+}
+
+.copyright {
+    display: block;
+}
+
